@@ -33,7 +33,7 @@
     "@vue-storefront/nuxt": "~2.4.1",
     "@vue-storefront/nuxt-theme": "~2.4.1",
     "@vue-storefront/vendure": "^1.0.0-beta.3",
-    "convict": "^6.2.0",
+    "convict": "^6.2.3",
     "convict-format-with-validator": "^6.2.0",
     "cookie-universal-nuxt": "^2.1.5",
     "core-js": "^3.16.2",
