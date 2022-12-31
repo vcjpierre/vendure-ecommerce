@@ -6,7 +6,8 @@
     "run:server": "ts-node ./src/index.ts",
     "run:worker": "ts-node ./src/index-worker.ts",
     "start": "concurrently yarn:run:*",
-    "build": "tsc",
+    "build": "rimraf dist && tsc",
+    "add-build": "git add dist",
     "migration:generate": "ts-node migration generate",
     "migration:run": "ts-node migration run",
     "migration:revert": "ts-node migration revert"
@@ -21,6 +22,13 @@
   },
   "devDependencies": {
     "concurrently": "6.4.0",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^3.0.2",
     "ts-node": "10.4.0"
-  }
+  },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ]
 }
