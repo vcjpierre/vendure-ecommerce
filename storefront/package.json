@@ -44,7 +44,7 @@
     "nuxt-i18n": "^6.28.0",
     "omit-deep": "^0.3.0",
     "vee-validate": "^3.4.11",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-demi": "latest",
     "vue-dompurify-html": "^2.3.0",
     "vue-lazy-hydration": "^2.0.0-beta.4",
