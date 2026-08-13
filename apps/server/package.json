@@ -17,7 +17,7 @@
     "@vendure/asset-server-plugin": "3.6.2",
     "@vendure/core": "3.6.2",
     "@vendure/dashboard": "3.6.2",
-    "@vendure/email-plugin": "3.6.2",
+    "@vendure/email-plugin": "3.7.2",
     "@vendure/graphiql-plugin": "3.6.2",
     "dotenv": "17.4.2",
     "pg": "8.20.0"
